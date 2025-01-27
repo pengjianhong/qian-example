@@ -4,6 +4,7 @@ type ArticleProps = {
     date: string;
     children: React.ReactNode;
 }
+
 const Article = ({title, content, date, children}: ArticleProps) => {
     return (
         <div className="flex flex-col gap-4 mt-4 ">
@@ -14,4 +15,5 @@ const Article = ({title, content, date, children}: ArticleProps) => {
         </div>
     )
 }
+
 export default Article;
