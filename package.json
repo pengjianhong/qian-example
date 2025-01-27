@@ -1,0 +1,7 @@
+{
+    "name": "qian-example",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ]
+}
